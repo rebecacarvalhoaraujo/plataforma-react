@@ -13,9 +13,12 @@ export function Menu() {
         <li>
           <Link to="/contato">Contato</Link>
         </li>
+        <li>
+          <Link to="/usuarios">Usuarios</Link>
+        </li>
       </ul>
     </div>
-  )
+  );
 }
 
 // import 
