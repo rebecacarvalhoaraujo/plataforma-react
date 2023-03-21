@@ -1,7 +1,8 @@
 import './App.css';
 import { Menu } from './components/Menu/Menu';
-import { Home } from '.\src\pages\Home\home';
+import { Home } from './pages/Home/Home';
 import { Blog } from './pages/Blog/Blog';
+import { Contato } from './pages/Contato/Contato';
 import { Usuarios } from './pages/Usuarios/Usuarios';
 
 
@@ -12,9 +13,9 @@ function App() {
       <Menu />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='Blog' element={<Blog />} />
-          <Route path='/Contato' element={<Contato />} />
-          <Route path='/Usuarios' element={<Usuarios />} />
+          <Route path='blog' element={<Blog />} />
+          <Route path='/contato' element={<Contato />} />
+          <Route path='/usuarios' element={<Usuarios />} />
         </Routes>
       </BrowserRouter>      
     </div>

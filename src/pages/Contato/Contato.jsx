@@ -1,6 +1,6 @@
 export function Contato() {
     return (
-        <div className="contato">
+        <div className="Contato">
             <h1>Contato</h1>
         </div>
     )
