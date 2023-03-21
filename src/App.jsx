@@ -1,8 +1,8 @@
 import './App.css';
-import { Menu } from './componets/Menu/Menu';
-import { Home } from './pages/Home/Home';
+import { Menu } from './components/Menu/Menu';
+import { Home } from '.\src\pages\Home\home';
 import { Blog } from './pages/Blog/Blog';
-import { Blog } from './pages/Usuarios/Usuarios';
+import { Usuarios } from './pages/Usuarios/Usuarios';
 
 
 function App() {
