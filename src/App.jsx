@@ -8,7 +8,7 @@ import { Login } from './pages/Login/Login';
 import { Usuarios } from './pages/Usuarios/Usuarios';
 import { NotFound } from './pages/NotFound/NotFound';
 import { Root } from './pages/Root/Root';
-import { Section } from './components/Section/Section';
+import { Section } from './components/Menu/Section';
 
 const sections = [
   {

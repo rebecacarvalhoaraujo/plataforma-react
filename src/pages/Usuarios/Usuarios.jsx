@@ -1,4 +1,4 @@
-import { usuarios } from "../../data/usuarios";
+import { usuarios } from "../../dados/usuarios";
 import { Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
