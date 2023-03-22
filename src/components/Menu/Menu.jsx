@@ -7,10 +7,10 @@ export function Menu() {
         <div className="menu">
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">Menu</Navbar.Brand>
                     <Nav className="me-auto">
                         <Button variant="link">
-                            <Link o="/">Home</Link>
+                            <Link to="/">Home</Link>
                         </Button>
                         <Button variant="link">
                             <Link to="/blog">Blog</Link>
@@ -19,7 +19,13 @@ export function Menu() {
                             <Link to="/contato">Contato</Link>
                         </Button>
                         <Button variant="link">
-                        <Link to="/usuarios">Usuários</Link>
+                            <Link to="/usuarios">Usuários</Link>
+                        </Button>
+                        <Button variant="link">
+                            <Link to="/login">Login</Link>
+                        </Button>
+                        <Button variant="link">
+                            <Link to="/produtos">Produtos</Link>
                         </Button>
                     </Nav>
                 </Container>
