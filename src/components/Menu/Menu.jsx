@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 
 export function Menu() {
@@ -25,7 +24,10 @@ export function Menu() {
                             <Link to="/login">Login</Link>
                         </Button>
                         <Button variant="link">
-                            <Link to="/produtos">Produtos</Link>
+                            <Link to="/pokemon">Pokemon</Link>
+                        </Button>
+                        <Button variant="link">
+                            <Link to="/herois">Heróis</Link>
                         </Button>
                     </Nav>
                 </Container>
@@ -33,23 +35,3 @@ export function Menu() {
         </div>
     );
 }
-
-// import 
-
-// export function menu() {
-//     return (
-//         <div className="menu">
-//             <ul>
-//                 <li>
-//                     <a href="/">Home</a>
-//                 </li>
-//                 <li>
-//                     <a href="/blog">Blog</a>
-//                 </li>
-//                 <li>
-//                     <a href="/contato">Contato</a>
-//                 </li>
-//             </ul>
-//         </div>
-//     );
-// }

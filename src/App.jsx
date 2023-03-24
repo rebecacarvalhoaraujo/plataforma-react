@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Home } from './pages/Home/Home';
 import { Blog } from './pages/Blog/Blog';
@@ -8,7 +7,11 @@ import { Login } from './pages/Login/Login';
 import { Usuarios } from './pages/Usuarios/Usuarios';
 import { NotFound } from './pages/NotFound/NotFound';
 import { Root } from './pages/Root/Root';
-import { Section } from './components/Menu/Section';
+import { Section } from './components/Section/Section';
+import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
+import { Perfil } from './pages/Perfil/Perfil';
+import { Pokemon } from './pages/Pokemon/Pokemon';
+import { Herois } from './pages/Herois/Herois';
 
 const sections = [
   {
@@ -44,7 +47,13 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/usuarios" element={<Usuarios />} />
+            <Route path="/usuario/edit/:id" element={<EditaUsuario />} />   {/* :id -> Parametro de rota */}
+            <Route path="/usuario/perfil/:id" element={<Perfil />} />
             <Route path="/login" element={<Login />} />
+
+            <Route path="/pokemon" element={<Pokemon />} />
+            <Route path="/herois" element={<Herois />} />
+
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
@@ -54,10 +63,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
