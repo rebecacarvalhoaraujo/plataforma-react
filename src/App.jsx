@@ -12,6 +12,8 @@ import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
 import { Perfil } from './pages/Perfil/Perfil';
 import { Pokemon } from './pages/Pokemon/Pokemon';
 import { Herois } from './pages/Herois/Herois';
+import { Eletronicos } from './pages/Eletronicos/Eletronicos';
+import { Programadores } from './pages/Programadores/Programadores';
 
 const sections = [
   {
@@ -53,6 +55,8 @@ function App() {
 
             <Route path="/pokemon" element={<Pokemon />} />
             <Route path="/herois" element={<Herois />} />
+            <Route path="/eletronicos" element={<Eletronicos />} />
+            <Route path="/programadores" element={<Programadores />} />
 
             <Route path="*" element={<NotFound />} />
           </Route>
